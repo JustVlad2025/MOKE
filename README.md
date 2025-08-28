@@ -4,23 +4,25 @@ Magneto-Optical Kerr Effect
 
 Just share my modest success. Better find another expert in it
 
-# LabConnect
+# MOKE Lab Tool
 
-**LabConnect** is a lightweight program designed to help lab users connect with one another. Whether you’re looking for collaborators, sharing equipment, or simply meeting colleagues in your research environment, LabConnect makes it easy to discover and connect with other lab members.
+**MOKE Lab Tool** is a Python-based program for performing and analyzing **Magneto-Optical Kerr Effect (MOKE)** measurements.  
+It is designed to help researchers acquire data, process magneto-optical signals, and visualize hysteresis loops with minimal setup effort.
+
+---
+
+## 🧲 What is MOKE?
+The **Magneto-Optical Kerr Effect** occurs when the polarization of reflected light changes in the presence of a magnetic field.  
+It is widely used to study thin films, nanostructures, and magnetic materials.  
+
+This program simplifies experimental data collection and provides real-time analysis of Kerr rotation signals.
 
 ---
 
 ## 🚀 Features
-- 📋 Create a user profile with research interests and skills  
-- 🔍 Search for other lab users by keywords, skills, or projects  
-- 🤝 Match suggestions based on common interests  
-- 💬 Simple messaging to connect with lab members  
-- 🧪 Designed specifically for academic and research labs  
-
----
-
-## 📦 Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/labconnect.git
-   cd labconnect
+- Automated magnetic field sweep control  
+- Real-time acquisition of Kerr rotation data  
+- Background subtraction and normalization  
+- Visualization of hysteresis loops  
+- Export results to `.csv` and `.png` for further analysis  
+- Modular design for adapting to different DAQ and nanovoltmeter hardware
