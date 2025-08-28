@@ -26,3 +26,7 @@ This program simplifies experimental data collection and provides real-time anal
 - Visualization of hysteresis loops  
 - Export results to `.csv` and `.png` for further analysis  
 - Modular design for adapting to different DAQ and nanovoltmeter hardware
+
+-```
+pip install -r requirements.txt
+
