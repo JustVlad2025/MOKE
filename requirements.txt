@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+pandas
+pyvisa
+pyvisa-py
+pyserial
+nidaqmx
+tqdm
